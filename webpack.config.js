@@ -2,7 +2,7 @@ var entryDirectory = './app/';
 
 module.exports = {
   entry: [
-    entryDirectory + 'index.js',
+    entryDirectory + 'scripts/index.js',
     entryDirectory + 'styles/main.scss'
   ],
   output: {
@@ -26,10 +26,6 @@ module.exports = {
       {
         test: /\.scss$/,
         loaders: ['style', 'css', 'sass']
-      },
-      {
-        test: /\.handlebars$/,
-        loader: 'handlebars-loader'
       },
       {
         test: /\.js$/,
