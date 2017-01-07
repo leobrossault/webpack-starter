@@ -1,5 +1,23 @@
 # webpack-starter
 
-Simple webpack starter for little webapp.
+A simple webpack starter which use :
+  - ES6 - With eslint
+  - SCSS - With scss-lint
 
-Use handlebars, scss, es6 with scsslint and eslint.
+### Installation
+
+```sh
+$ npm install
+```
+
+### Launch
+
+```sh
+$ npm run dev
+```
+
+### Build
+
+```sh
+$ npm run build
+```

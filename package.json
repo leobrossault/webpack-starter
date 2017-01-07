@@ -4,7 +4,7 @@
   "description": "Webpack starter",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --watch --content-base --inline --open --hot --mode=dev",
+    "dev": "webpack-dev-server --watch --content-base --inline --open --hot --mode=dev",
     "build": "rm -rf build && webpack -p --mode=build --progress"
   },
   "author": "Leo Brossault",
